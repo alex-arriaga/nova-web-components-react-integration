@@ -19,6 +19,13 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <nova-notification id="js-success-notification"
+                         variant="success"
+                         heading="Nova Notification"
+                         message="This is super awesome! Isn't it?"
+                         position="topRight" showed />
+
     </div>
   );
 }
